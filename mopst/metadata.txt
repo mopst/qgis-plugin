@@ -1,0 +1,22 @@
+[general]
+name=MOPST
+description=Mapping Opportunity & Pressures for Sustainable Tourism
+about=This plugin runs the MOPST (Mapping Opportunity & Pressures for Sustainable Tourism) model which helps evaluate sustainable tourism options.
+category=Plugins
+version=1.0.0
+qgisMinimumVersion=3.22
+
+icon=logo.png
+tags=analysis,processing,mopst,vector,lidar
+
+author=Nick Bearman
+email=nick@geospatialtrainingsolutions.co.uk
+
+homepage=https://github.com/mopst/qgis-plugin
+tracker=https://github.com/mopst/qgis-plugin/issues
+repository=https://github.com/mopst/qgis-plugin
+
+hasProcessingProvider=yes
+
+experimental=False
+deprecated=False
