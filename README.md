@@ -17,7 +17,7 @@ There is some demonstration data so you can test out the Toolbox on your compute
 - Download the [`demo.zip`](https://github.com/mopst/qgis-plugin/releases/download/v1.0.0/demo.zip) file and extract it. This contains all the files you need to run the Plugin. 
 - Open the `demo-project.qgz` file. 
 - In the Processing Toolbox, navigate **MOPST > Analysis > MOPST**. 
-- Set the input files, [like this image](demo-MOPST-tool-inputs.png). 
+- Set the input files, [like this image](demo-MOPST-plugin-inputs.png). 
 - Click **OK** to run the model.
 - Wait for model to run (about 2 minutes or so). 
 - Check the outputs in whichever output directory you chose. 
