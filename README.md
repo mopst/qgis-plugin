@@ -11,20 +11,20 @@ This has been tested on QGIS 3.22 and should work on later versions of QGIS (it 
 
 There is some demonstration data so you can test out the Toolbox on your computer. 
 
-- Download the [MOPST QGIS Plugin](). Save this somewhere on your machine you can find it (e.g. Downloads). 
-- Install the plugin by extracting the `mopst.zip` file in to your Plugins folder (`C:\Users\USER\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins`).
+- Download the [MOPST QGIS Plugin](https://github.com/mopst/qgis-plugin/archive/refs/tags/v1.0.0.zip). Save this somewhere on your machine you can find it (e.g. Downloads). 
+- Install the plugin by extracting the `qgis-plugin-1.0.0.zip` file in to your Plugins folder (`C:\Users\USER\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins`).
 - Open QGIS.
-- Download the [`demo.zip`]() file and extract it. This contains all the files you need to run the Plugin. 
+- Download the [`demo.zip`](https://github.com/mopst/qgis-plugin/releases/download/v1.0.0/demo.zip) file and extract it. This contains all the files you need to run the Plugin. 
 - Open the `demo-project.qgz` file. 
-- in the Processing Toolbox, navigate **MOPST > Analysis > MOPST**. 
-- Set the input files, [like this image](). 
+- In the Processing Toolbox, navigate **MOPST > Analysis > MOPST**. 
+- Set the input files, [like this image](demo-MOPST-tool-inputs.png). 
 - Click **OK** to run the model.
 - Wait for model to run (about 2 minutes or so). 
 - Check the outputs in whichever output directory you chose. 
-- Compare these and the output log to the files available in the `output.zip` file. 
+- Compare these and the output log to the files available in the [`output.zip`](https://github.com/mopst/qgis-plugin/releases/download/v1.0.0/output.zip) file. 
 
 
-For more details, please look at the [video]() or the [Demonstration Files]() page. 
+For more details, please look at the [video](https://youtu.be/oK67PIRi64o) or the [Demonstration Files](demo.md) page. 
  
  
 ## Useful Information
