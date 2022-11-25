@@ -15,6 +15,8 @@ This [video](https://youtu.be/oK67PIRi64o) shows how to use the tool and the dem
  
 ### Step by step instructions
 
+#### Install Plugin
+
 *This is a temporary process until the plugin is stored in the QGIS Python Plugins Repository.*
 
 - Download the [MOPST QGIS Plugin](https://github.com/mopst/qgis-plugin/archive/refs/tags/v1.0.0.zip). Save this somewhere on your machine you can find it (e.g. Downloads). 
@@ -25,11 +27,13 @@ This [video](https://youtu.be/oK67PIRi64o) shows how to use the tool and the dem
 
 Alternatively you can go **Settings -> User profiles -> Open active profile folder** in QGIS. From there, you can go to `python -> plugins`. That's the plugin folder for QGIS v3.
 
-On a Mac it will look like this: `~/Library/Application\ Support/QGIS/QGIS3/profiles/default/python/plugins`
+On a Mac it will look like this: `~/Library/Application\Support/QGIS/QGIS3/profiles/default/python/plugins`
 
 On Unix it will look like this `/home/USER/.local/share/QGIS/QGIS3/profiles/default/python/plugins`
 
 For more details, please checkout this post on [StackExchange](https://gis.stackexchange.com/questions/274311/qgis-3-plugin-folder-location).
+
+#### Run Plugin with Demo files
 
 - Open QGIS.
 
@@ -59,17 +63,17 @@ The `factor-rasters` folder contains 9 example factors. These are all created us
 - In the Processing Toolbox, navigate **MOPST > Analysis > MOPST**. 
 - Set the input files like this:
 
-![The input settings required for the demo data](demo-MOPST-tool-inputs.png)
+![The input settings required for the demo data](demo-MOPST-plugin-inputs.png)
 
 - Click **OK** to run the model.
+
 - Wait for model to run (about 2 minutes or so). 
 
 These data took 2 minutes 5 seconds to run on my machine. Your computer might be quicker or slower, but it should be around this figure. 
 
 - Check the outputs in whichever output directory you chose. 
 
-- Compare these and the output log to the files available in the [`output.zip`](https://github.com/mop
-st/qgis-plugin/releases/download/v1.0.0/output.zip) file. 
+- Compare these and the output log to the files available in the `[output.zip](https://github.com/mopst/qgis-plugin/releases/download/v1.0.0/output.zip)` file. 
 
 - Adjust the weights and re-run the model to see how the output varies.
 

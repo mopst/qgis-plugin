@@ -53,7 +53,7 @@ This plugin makes use of a range of input files. The files in [demo.zip](https:/
 
 
 ### Factor Raster Layers
-- *Examples are in factor-rasters
+- *Examples are in \factor-rasters*
 - For ease, these are all stored within the **factor-rasters** sub-folder and can be added in using the browse tool or by selecting from the drop down list. 
 - Rasters must have a value of **1** where the object is present, and **0** where the object is not present. 
 - All rasters must have the same extent and resolution. 

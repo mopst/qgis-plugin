@@ -43,7 +43,7 @@ Name (Format) | Example Filename | Description
 -- | -- | -- 
 Land Cover (Shapefile) | *brighton-lewes-down-land-cover.shp* | Shapefile of the different land cover types. 
 Land Cover Sensitivity (CSV File) | *land-cover-sensitivity.csv* | Sensitivity score for each land cover type.
-Seasonality Score (CSV File) | seasonality.csv | Contains information on which land cover types are more sensitive in summer or winter. 
+Seasonality Score (CSV File) | *seasonality.csv* | Contains information on which land cover types are more sensitive in summer or winter. 
 Pressure Raster Layer (Raster TIF) | *bldbr-pressures-merged.tif* | Identify the stakeholder identification of areas of tourism pressure. 
 Opportunity Raster Layer (Raster TIF) | *bldbr-opportunity-merged.tif* | identify the stakeholder identification of areas of tourism opportunity. 
 Factor Weights (CSV File) | *seasonality.csv* | Lists all of the Factor Raster Layers and the weights given to them for Pressure and Opportunity.
@@ -64,18 +64,18 @@ pressure-summer.tif | Working file |
 pressure-winter.tif | Working file | 
 summer_landcover.tif | Working file |
 winter_landcover.tif | Working file |
-scenario-Business as usual\opportunity-summer.tif | Summer Opportunity file for business scenario | 
-scenario-Business as usual\opportunity-winter.tif | Winter Opportunity file for business scenario | 
-scenario-Business as usual\pressure-summer.tif | Summer Pressure file for business scenario | 
-scenario-Business as usual\pressure-winter.tif | Winter Pressure file for business scenario | 
-scenario-Custodianship\opportunity-summer.tif | Summer Opportunity file for custodianship scenario | 
-scenario-Custodianship\opportunity-winter.tif | Winter Opportunity file for custodianship scenario | 
-scenario-Custodianship\pressure-summer.tif | Summer Pressure file for custodianship scenario | 
-scenario-Custodianship\pressure-winter.tif | Winter Pressure file for custodianship scenario | 
-scenario-Profit\opportunity-summer.tif | Summer Opportunity file for profit scenario | 
-scenario-Profit\opportunity-winter.tif | Winter Opportunity file for profit scenario | 
-scenario-Profit\pressure-summer.tif | Summer Pressure file for profit scenario | 
-scenario-Profit\pressure-winter.tif | Winter Pressure file for profit scenario | 
+scenario-Business as usual\opportunity-summer.tif | Output file | Summer Opportunity file for business scenario | 
+scenario-Business as usual\opportunity-winter.tif | Output file | Winter Opportunity file for business scenario | 
+scenario-Business as usual\pressure-summer.tif | Output file | Summer Pressure file for business scenario | 
+scenario-Business as usual\pressure-winter.tif | Output file | Winter Pressure file for business scenario | 
+scenario-Custodianship\opportunity-summer.tif | Output file | Summer Opportunity file for custodianship scenario | 
+scenario-Custodianship\opportunity-winter.tif | Output file | Winter Opportunity file for custodianship scenario | 
+scenario-Custodianship\pressure-summer.tif | Output file | Summer Pressure file for custodianship scenario | 
+scenario-Custodianship\pressure-winter.tif | Output file | Winter Pressure file for custodianship scenario | 
+scenario-Profit\opportunity-summer.tif | Output file | Summer Opportunity file for profit scenario | 
+scenario-Profit\opportunity-winter.tif | Output file | Winter Opportunity file for profit scenario | 
+scenario-Profit\pressure-summer.tif | Output file | Summer Pressure file for profit scenario | 
+scenario-Profit\pressure-winter.tif | Output file | Winter Pressure file for profit scenario | 
 
 They are available in [`output.zip`](). 
  
