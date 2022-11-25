@@ -9,7 +9,7 @@ qgisMinimumVersion=3.22
 icon=logo.png
 tags=analysis,processing,mopst,vector,lidar
 
-author=Nick Bearman
+author=Nick Bearman and Alexander Bruy
 email=nick@geospatialtrainingsolutions.co.uk
 
 homepage=https://github.com/mopst/qgis-plugin
