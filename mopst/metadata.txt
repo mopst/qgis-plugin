@@ -12,9 +12,9 @@ tags=analysis,processing,mopst,vector,lidar
 author=Nick Bearman
 email=nick@geospatialtrainingsolutions.co.uk
 
-homepage=
-tracker=
-repository=
+homepage=https://github.com/mopst/qgis-plugin
+tracker=https://github.com/mopst/qgis-plugin/issues
+repository=https://github.com/mopst/qgis-plugin
 
 hasProcessingProvider=yes
 
