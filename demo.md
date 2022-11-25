@@ -33,6 +33,10 @@ On Unix it will look like this `/home/USER/.local/share/QGIS/QGIS3/profiles/defa
 
 For more details, please checkout this post on [StackExchange](https://gis.stackexchange.com/questions/274311/qgis-3-plugin-folder-location).
 
+- Copy the `mopst` folder from the `qgis-plugin-1.0.0` folder to the `plugins` folder. It shoud look like this:
+
+![Screenshot of the QGIS Plugins folder, with mopst present](plugins-folder.png)
+
 #### Run Plugin with Demo files
 
 - Open QGIS.
