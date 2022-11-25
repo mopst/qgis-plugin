@@ -73,7 +73,7 @@ These data took 2 minutes 5 seconds to run on my machine. Your computer might be
 
 - Check the outputs in whichever output directory you chose. 
 
-- Compare these and the output log to the files available in the `[output.zip](https://github.com/mopst/qgis-plugin/releases/download/v1.0.0/output.zip)` file. 
+- Compare these and the output log to the files available in the [output.zip](https://github.com/mopst/qgis-plugin/releases/download/v1.0.0/output.zip) file. 
 
 - Adjust the weights and re-run the model to see how the output varies.
 
