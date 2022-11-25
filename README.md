@@ -68,12 +68,10 @@ scenario-Business as usual\opportunity-summer.tif | Summer Opportunity file for 
 scenario-Business as usual\opportunity-winter.tif | Winter Opportunity file for business scenario | 
 scenario-Business as usual\pressure-summer.tif | Summer Pressure file for business scenario | 
 scenario-Business as usual\pressure-winter.tif | Winter Pressure file for business scenario | 
-
 scenario-Custodianship\opportunity-summer.tif | Summer Opportunity file for custodianship scenario | 
 scenario-Custodianship\opportunity-winter.tif | Winter Opportunity file for custodianship scenario | 
 scenario-Custodianship\pressure-summer.tif | Summer Pressure file for custodianship scenario | 
 scenario-Custodianship\pressure-winter.tif | Winter Pressure file for custodianship scenario | 
-
 scenario-Profit\opportunity-summer.tif | Summer Opportunity file for profit scenario | 
 scenario-Profit\opportunity-winter.tif | Winter Opportunity file for profit scenario | 
 scenario-Profit\pressure-summer.tif | Summer Pressure file for profit scenario | 
