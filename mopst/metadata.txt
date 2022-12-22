@@ -7,7 +7,7 @@ version=1.0.0
 qgisMinimumVersion=3.22
 
 icon=logo.png
-tags=analysis,processing,mopst,vector,lidar
+tags=analysis,processing,mopst,
 
 author=Nick Bearman and Alexander Bruy
 email=nick@geospatialtrainingsolutions.co.uk
