@@ -17,29 +17,15 @@ This [video](https://youtu.be/oK67PIRi64o) shows how to use the tool and the dem
 
 #### Install Plugin
 
-*This is a temporary process until the plugin is stored in the QGIS Python Plugins Repository.*
+- Open QGIS.
 
-- Download the [MOPST QGIS Plugin](https://github.com/mopst/qgis-plugin/archive/refs/tags/v1.0.0.zip). Save this somewhere on your machine you can find it (e.g. Downloads). 
+- In QGIS, add the MOPST plugin by going **Plugins > Manage and Install Plugins...**. 
 
-- Extract the `qgis-plugin-1.0.0.zip` file in to somewhere you can find it (e.g. Downloads). 
+- Search for **MOPST**, select is and choose **Install Plugin**. 
 
-- Locate your QGIS Plugins folder. Typically this is in your user profile, e.g. `C:\Users\USER\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins` on Windows. 
-
-Alternatively you can go **Settings -> User profiles -> Open active profile folder** in QGIS. From there, you can go to `python -> plugins`. That's the plugin folder for QGIS v3.
-
-On a Mac it will look like this: `~/Library/Application\Support/QGIS/QGIS3/profiles/default/python/plugins`
-
-On Unix it will look like this `/home/USER/.local/share/QGIS/QGIS3/profiles/default/python/plugins`
-
-For more details, please checkout this post on [StackExchange](https://gis.stackexchange.com/questions/274311/qgis-3-plugin-folder-location).
-
-- Copy the `mopst` folder from the `qgis-plugin-1.0.0` folder to the `plugins` folder. It shoud look like this:
-
-![Screenshot of the QGIS Plugins folder, with mopst present](plugins-folder.png)
+- Click **Close**. 
 
 #### Run Plugin with Demo files
-
-- Open QGIS.
 
 - You can verify the plugin is there by opening the Processing Toolbox (**Processing > Toolbox**) and check MOPST is listed:
 
@@ -65,6 +51,7 @@ The `factor-rasters` folder contains 9 example factors. These are all created us
 - Open the `demo-project.qgz` file. 
 
 - In the Processing Toolbox, navigate **MOPST > Analysis > MOPST**. 
+
 - Set the input files like this:
 
 ![The input settings required for the demo data](demo-MOPST-plugin-inputs.png)
@@ -83,3 +70,29 @@ These data took 2 minutes 5 seconds to run on my machine. Your computer might be
 
 For more details, please look at the [video](https://youtu.be/oK67PIRi64o).
 
+
+## Development Version
+
+The instructions above install the version from the [QGIS Python Plugins Repository](https://plugins.qgis.org/plugins/mopst/). If you want to install the development version, follow these instructions:
+
+- Download the [MOPST QGIS Plugin](https://github.com/mopst/qgis-plugin/archive/refs/tags/v1.0.0.zip). Save this somewhere on your machine you can find it (e.g. Downloads). 
+
+- Extract the `qgis-plugin-1.0.0.zip` file in to somewhere you can find it (e.g. Downloads). 
+
+- Locate your QGIS Plugins folder. Typically this is in your user profile, e.g. `C:\Users\USER\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins` on Windows. 
+
+Alternatively you can go **Settings -> User profiles -> Open active profile folder** in QGIS. From there, you can go to `python -> plugins`. That's the plugin folder for QGIS v3.
+
+On a Mac it will look like this: `~/Library/Application\Support/QGIS/QGIS3/profiles/default/python/plugins`
+
+On Unix it will look like this `/home/USER/.local/share/QGIS/QGIS3/profiles/default/python/plugins`
+
+For more details, please checkout this post on [StackExchange](https://gis.stackexchange.com/questions/274311/qgis-3-plugin-folder-location).
+
+- Copy the `mopst` folder from the `qgis-plugin-1.0.0` folder to the `plugins` folder. It should look like this:
+
+![Screenshot of the QGIS Plugins folder, with mopst present](plugins-folder.png)
+
+- Open QGIS and confirm the plugin is present in the Processing Toolbox under  **MOPST > Analysis > MOPST**.  
+
+- Follow the main instructions above.
